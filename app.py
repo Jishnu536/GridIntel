@@ -148,7 +148,7 @@ else:
             st.warning("Please upload a CSV file")
         
         # Fallback default path
-        default_path = "/Users/jishnu/Downloads/NREL NSRDB Datasets 2018-23/Cleaned Data/2023_data_cleaned.csv"
+        default_path = ""
         csv_path = st.session_state.get("csv_path", default_path)
         
         st.markdown("### Actual Output Chart")
@@ -167,7 +167,7 @@ else:
         st.markdown("### Actual Output vs Predicted Output")
 
         # Fallback default path
-        default_path = "/Users/jishnu/Downloads/NREL NSRDB Datasets 2018-23/Cleaned Data/2023_data_cleaned.csv"
+        default_path = ""
         csv_path = st.session_state.get("csv_path", default_path)
 
         if "csv_path" in st.session_state:
@@ -209,7 +209,7 @@ else:
         st.markdown("### Anomalies Chart")
 
         # Fallback default path
-        default_path = "/Users/jishnu/Downloads/NREL NSRDB Datasets 2018-23/Cleaned Data/2023_data_cleaned.csv"
+        default_path = ""
         csv_path = st.session_state.get("csv_path", default_path)
 
         if "csv_path" in st.session_state:
