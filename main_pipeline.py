@@ -732,6 +732,3 @@ def run_pipeline(csv_path):
    
    return X_train, X_test, y_train, y_test, y_pred, daily_ghi, next_date, next_day_prediction, plot_data
    
-
-
-run_pipeline("/Users/jishnu/Downloads/NREL NSRDB Datasets 2018-23/Cleaned Data/2023_data_cleaned.csv")
