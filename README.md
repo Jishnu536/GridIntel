@@ -96,8 +96,8 @@ The project includes a live frontend powered by **Streamlit**:
 
 ### 1. Clone This Repository
 
-git clone https://github.com/your-username/solar-forecasting-app.git
-cd solar-forecasting-app
+git clone https://github.com/Jishnu536/GridIntel
+cd GridIntel
 
 ### 2. Install Dependencies
 
