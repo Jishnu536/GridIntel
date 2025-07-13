@@ -98,7 +98,7 @@ def detect_anomalies(y_test, y_pred, X_test=None, use_isolation_forest=True, thr
         save_combined_alert_for_zapier(anomalies_only)
 
         # Trigger Zapier webhook
-        webhook_url = "https://hooks.zapier.com/hooks/catch/23632549/u3kptdx/"
+        webhook_url = "" #Change to Actual Link to Zap (Zapier)
         trigger_zapier_webhook(webhook_url, anomalies_only, site_id="Solar Output")
 
     else:
